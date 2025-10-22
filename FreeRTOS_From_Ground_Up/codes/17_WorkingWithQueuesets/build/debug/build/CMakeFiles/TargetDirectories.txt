@@ -1,0 +1,3 @@
+C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/15_SyncingTasksWithQueues.dir
+C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/edit_cache.dir
+C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/rebuild_cache.dir

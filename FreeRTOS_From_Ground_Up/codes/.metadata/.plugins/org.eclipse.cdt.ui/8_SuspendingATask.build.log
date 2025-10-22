@@ -1,0 +1,20 @@
+08:34:59 **** Build of configuration Debug for project 8_SuspendingATask ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "8_SuspendingATask.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\figue\Documents\2.Electronics\1.Embedded_Systems\STM32\RTOS\RTOS_Training\FreeRTOS_From_Ground_Up\codes\8_SuspendingATask\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="8_SuspendingATask.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 8_SuspendingATask.elf
+ 
+arm-none-eabi-size   8_SuspendingATask.elf 
+arm-none-eabi-objdump -h -S  8_SuspendingATask.elf  > "8_SuspendingATask.list"
+   text	   data	    bss	    dec	    hex	filename
+  19332	     24	  20504	  39860	   9bb4	8_SuspendingATask.elf
+arm-none-eabi-objcopy  -O binary  8_SuspendingATask.elf  "8_SuspendingATask.bin"
+Finished building: default.size.stdout
+ 
+Finished building: 8_SuspendingATask.bin
+ 
+Finished building: 8_SuspendingATask.list
+ 
+
+08:35:00 Build Finished. 0 errors, 0 warnings. (took 1s.465ms)
+

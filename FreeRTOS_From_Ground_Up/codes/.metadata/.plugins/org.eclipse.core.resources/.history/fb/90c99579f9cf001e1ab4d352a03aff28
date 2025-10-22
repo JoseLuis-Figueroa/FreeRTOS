@@ -1,0 +1,93 @@
+/*
+ * uart.c
+ *
+ *  Created on: Jan 25, 2024
+ *      Author: Jose Figueroa
+ */
+#include "stm32f4xx_hal.h"
+
+/* Private function prototypes -----------------------------------------------*/
+//int __io_putchar(int ch);
+
+/* Private variables ---------------------------------------------------------*/
+extern UART_HandleTypeDef huart2;
+
+
+/**
+  * @brief USART2 TX Initialization Function
+  * @param None
+  * @retval None
+  */
+void USART2_UART_TX_Init(void)
+{
+  /*USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 115200;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    //Error_Handler();
+  }
+
+}
+
+/**
+  * @brief USART2 RX Initialization Function
+  * @param None
+  * @retval None
+  */
+void USART2_UART_RX_Init(void)
+{
+  /*USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 115200;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    //Error_Handler();
+  }
+
+}
+
+/**
+ * @brief UART write function
+ */
+int USART2_write(int ch)
+{
+	/*Wait until data is transferred(TXE=1). While condition is running while
+	 TXE bit is 0 (false(!)) when TXE bit is 1 the while condition ends*/
+	while(!(USART2->SR & USART_SR_TXE)){}
+	USART2->DR = (ch & 0xFF);
+
+	return ch;
+}
+
+/**
+ * @brief UART read function
+ */
+char USART2_read(void)
+{
+	/*Make sure the receive data register is not empty*/
+	while(!(USART2->SR & USART_SR_RXNE)){}
+	return USART2->DR;
+}
+
+/**
+ * @brief UART transmit configuration to use printf function
+ */
+int __io_putchar(int ch)
+{
+	USART2_write(ch);
+	return ch;
+}
+

@@ -1,0 +1,10 @@
+08:09:12 **** Incremental Build of configuration Debug for project 15_SynkingQueue ****
+make -j8 all 
+arm-none-eabi-size   15_SynkingQueue.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24044	    124	  20516	  44684	   ae8c	15_SynkingQueue.elf
+Finished building: default.size.stdout
+ 
+
+08:09:13 Build Finished. 0 errors, 0 warnings. (took 517ms)
+

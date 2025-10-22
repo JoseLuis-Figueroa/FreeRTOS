@@ -1,0 +1,10 @@
+13:46:26 **** Incremental Build of configuration Debug for project 17_WorkingWithQueueset ****
+make -j8 all 
+arm-none-eabi-size   17_WorkingWithQueueset.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24544	    124	  20516	  45184	   b080	17_WorkingWithQueueset.elf
+Finished building: default.size.stdout
+ 
+
+13:46:27 Build Finished. 0 errors, 0 warnings. (took 452ms)
+

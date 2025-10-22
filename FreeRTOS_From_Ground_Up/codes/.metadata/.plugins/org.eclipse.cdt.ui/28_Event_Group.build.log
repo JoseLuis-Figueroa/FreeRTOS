@@ -1,0 +1,10 @@
+07:25:28 **** Incremental Build of configuration Debug for project 28_Event_Group ****
+make -j8 all 
+arm-none-eabi-size   28_Event_Group.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23460	    124	  20508	  44092	   ac3c	28_Event_Group.elf
+Finished building: default.size.stdout
+ 
+
+07:25:29 Build Finished. 0 errors, 0 warnings. (took 680ms)
+

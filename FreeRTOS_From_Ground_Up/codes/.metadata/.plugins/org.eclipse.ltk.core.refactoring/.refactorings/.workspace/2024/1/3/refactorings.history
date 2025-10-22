@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;15_SynkingQueue&apos; to &apos;15_SyncingTasksWithQueues&apos;" description="Rename resource &apos;15_SynkingQueue&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/15_SynkingQueue" name="15_SyncingTasksWithQueues" stamp="1705414350353" updateReferences="true"/>
+</session>

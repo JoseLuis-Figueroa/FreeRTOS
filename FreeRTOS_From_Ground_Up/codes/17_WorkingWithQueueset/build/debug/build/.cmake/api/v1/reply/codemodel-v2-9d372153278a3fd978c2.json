@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "15_SyncingTasksWithQueues",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "15_SyncingTasksWithQueues::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-15_SyncingTasksWithQueues-Debug-4472a9ada62011442bfc.json",
+					"name" : "15_SyncingTasksWithQueues",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build",
+		"source" : "C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

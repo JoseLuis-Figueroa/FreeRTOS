@@ -1,0 +1,11 @@
+08:45:11 **** Incremental Build of configuration Debug for project 28_EventGroups ****
+make -j8 all 
+arm-none-eabi-gcc -o "28_EventGroups.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\figue\Documents\2.Electronics\1.Embedded_Systems\STM32\RTOS\RTOS_Training\FreeRTOS_From_Ground_Up\codes\28_EventGroups\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="28_EventGroups.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+c:\program files\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\bin\ld.exe: ./Core/Src/uart.o: in function `USART2_UART_TX_Init':
+C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/26_InterractingWithDrivers-UARTRxInterrupt/Debug/../Core/Src/uart.c:37: undefined reference to `huart2'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:68: 28_EventGroups.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+08:45:12 Build Failed. 3 errors, 0 warnings. (took 603ms)
+
