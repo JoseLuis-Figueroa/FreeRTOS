@@ -1,0 +1,10 @@
+08:13:51 **** Incremental Build of configuration Debug for project 15_SyncingTasksWithQueues ****
+make -j8 all 
+arm-none-eabi-size   15_SyncingTasksWithQueues.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24044	    124	  20516	  44684	   ae8c	15_SyncingTasksWithQueues.elf
+Finished building: default.size.stdout
+ 
+
+08:13:52 Build Finished. 0 errors, 0 warnings. (took 475ms)
+

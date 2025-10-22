@@ -1,0 +1,10 @@
+13:31:08 **** Incremental Build of configuration Debug for project 16_SendingComplexDataWithQueues ****
+make -j8 all 
+arm-none-eabi-size   16_SendingComplexDataWithQueues.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24060	    124	  20524	  44708	   aea4	16_SendingComplexDataWithQueues.elf
+Finished building: default.size.stdout
+ 
+
+13:31:08 Build Finished. 0 errors, 0 warnings. (took 419ms)
+

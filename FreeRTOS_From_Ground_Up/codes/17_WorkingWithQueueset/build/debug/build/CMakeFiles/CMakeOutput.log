@@ -1,0 +1,290 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/bin/arm-none-eabi-gcc.exe -fdata-sections;-ffunction-sections;--specs=nano.specs;-Wl,--gc-sections
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/3.20.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/bin/arm-none-eabi-g++.exe -fdata-sections;-ffunction-sections;--specs=nano.specs;-Wl,--gc-sections;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/3.20.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 9.3.1 20200408 (release)
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_55337 && [1/2] Building C object CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+Reading specs from c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=C:\PROGRA~1\STM32C~1.0\STM32C~1\plugins\CODFE3~1.202\tools\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-v' '-o' 'CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -iprefix c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.20.1/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -o C:\Users\figue\AppData\Local\Temp\ccAX4df3.s
+GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/include/newlib-nano
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 91a756b62f0ae634da43c58967784a0b
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-v' '-o' 'CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj C:\Users\figue\AppData\Local\Temp\ccAX4df3.s
+GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428
+COMPILER_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-v' '-o' 'CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+[2/2] Linking C static library libcmTC_55337.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/include/newlib-nano]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/include/newlib-nano] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/newlib-nano]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/newlib-nano;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include-fixed;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_55337 && [1/2] Building C object CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=C:\PROGRA~1\STM32C~1.0\STM32C~1\plugins\CODFE3~1.202\tools\bin\AR19DD~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-v' '-o' 'CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -iprefix c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.20.1/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -o C:\Users\figue\AppData\Local\Temp\ccAX4df3.s]
+  ignore line: [GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/include/newlib-nano]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 91a756b62f0ae634da43c58967784a0b]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-v' '-o' 'CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj C:\Users\figue\AppData\Local\Temp\ccAX4df3.s]
+  ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428]
+  ignore line: [COMPILER_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-v' '-o' 'CMakeFiles/cmTC_55337.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [[2/2] Linking C static library libcmTC_55337.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_8e20b && [1/2] Building CXX object CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+Reading specs from c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=C:\PROGRA~1\STM32C~1.0\STM32C~1\plugins\CODFE3~1.202\tools\bin\AR10B2~1.EXE
+Target: arm-none-eabi
+Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -iprefix c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.20.1/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj -version -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\Users\figue\AppData\Local\Temp\ccKFbhqG.s
+GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/include/newlib-nano
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 039a747603c92557e970a6b8d085a704
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\figue\AppData\Local\Temp\ccKFbhqG.s
+GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428
+COMPILER_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+[2/2] Linking CXX static library libcmTC_8e20b.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/include/newlib-nano]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+    add: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/include/newlib-nano] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/newlib-nano]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/c++/9.3.1]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/c++/9.3.1/arm-none-eabi]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/c++/9.3.1/backward]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  collapse include dir [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/newlib-nano;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/c++/9.3.1;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/c++/9.3.1/arm-none-eabi;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include/c++/9.3.1/backward;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include-fixed;C:/Program Files/STM32CubeIDE_1.8.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/figue/Documents/2.Electronics/1.Embedded_Systems/STM32/RTOS/RTOS_Training/FreeRTOS_From_Ground_Up/codes/15_SyncingTasksWithQueues/build/debug/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_8e20b && [1/2] Building CXX object CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=C:\PROGRA~1\STM32C~1.0\STM32C~1\plugins\CODFE3~1.202\tools\bin\AR10B2~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -iprefix c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Users/figue/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.20.1/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj -version -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\Users\figue\AppData\Local\Temp\ccKFbhqG.s]
+  ignore line: [GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../arm-none-eabi/include/newlib-nano]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  ignore line: [ c:\progra~1\stm32c~1.0\stm32c~1\plugins\codfe3~1.202\tools\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 039a747603c92557e970a6b8d085a704]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\figue\AppData\Local\Temp\ccKFbhqG.s]
+  ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428]
+  ignore line: [COMPILER_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~1/stm32c~1.0/stm32c~1/plugins/codfe3~1.202/tools/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_8e20b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [[2/2] Linking CXX static library libcmTC_8e20b.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

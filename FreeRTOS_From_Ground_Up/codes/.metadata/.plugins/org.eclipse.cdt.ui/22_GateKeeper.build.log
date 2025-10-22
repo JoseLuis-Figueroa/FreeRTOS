@@ -1,0 +1,10 @@
+08:21:52 **** Incremental Build of configuration Debug for project 22_GateKeeper ****
+make -j8 all 
+arm-none-eabi-size   22_GateKeeper.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24336	    124	  20516	  44976	   afb0	22_GateKeeper.elf
+Finished building: default.size.stdout
+ 
+
+08:21:52 Build Finished. 0 errors, 0 warnings. (took 348ms)
+

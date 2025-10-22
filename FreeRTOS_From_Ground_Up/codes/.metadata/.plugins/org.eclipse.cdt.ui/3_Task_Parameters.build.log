@@ -1,0 +1,24 @@
+08:34:51 **** Build of configuration Debug for project 3_Task_Parameters ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'vLedControllerTask':
+../Core/Src/main.c:84:29: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   84 |   HAL_GPIO_TogglePin(GPIOA, (uint16_t)pvParameters);
+      |                             ^
+arm-none-eabi-gcc -o "3_Task_Parameters.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\figue\Documents\2.Electronics\1.Embedded_Systems\STM32\RTOS\RTOS_Training\FreeRTOS_From_Ground_Up\codes\3_Task_Parameters\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_Task_Parameters.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 3_Task_Parameters.elf
+ 
+arm-none-eabi-size   3_Task_Parameters.elf 
+arm-none-eabi-objdump -h -S  3_Task_Parameters.elf  > "3_Task_Parameters.list"
+   text	   data	    bss	    dec	    hex	filename
+  19180	     40	  20488	  39708	   9b1c	3_Task_Parameters.elf
+arm-none-eabi-objcopy  -O binary  3_Task_Parameters.elf  "3_Task_Parameters.bin"
+Finished building: default.size.stdout
+ 
+Finished building: 3_Task_Parameters.bin
+ 
+Finished building: 3_Task_Parameters.list
+ 
+
+08:34:53 Build Finished. 0 errors, 1 warnings. (took 1s.456ms)
+

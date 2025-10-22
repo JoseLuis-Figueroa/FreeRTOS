@@ -1,0 +1,10 @@
+08:45:43 **** Incremental Build of configuration Debug for project 26_InterractingWithDrivers-UARTRxInterrupt ****
+make -j8 all 
+arm-none-eabi-size   26_InterractingWithDrivers-UARTRxInterrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19268	     24	  20488	  39780	   9b64	26_InterractingWithDrivers-UARTRxInterrupt.elf
+Finished building: default.size.stdout
+ 
+
+08:45:43 Build Finished. 0 errors, 0 warnings. (took 421ms)
+
